@@ -3,9 +3,6 @@ $(call inherit-product, device/lge/d850/full_d850.mk)
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/aokp/configs/common_full_phone.mk)
 
-# Enhanced NFC
-$(call inherit-product, vendor/aokp/configs/nfc_enhanced.mk)
-
 PRODUCT_NAME := aokp_d850
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
